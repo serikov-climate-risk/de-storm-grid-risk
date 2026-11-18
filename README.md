@@ -1,8 +1,8 @@
 # Windstorms on the German transmission grid: line failures, lost load and the value of information for reinforcement (v0.1)
 
-[![tests](https://github.com/michaelserikov/de-storm-grid-risk/actions/workflows/tests.yml/badge.svg)](https://github.com/michaelserikov/de-storm-grid-risk/actions/workflows/tests.yml)
+[![tests](https://github.com/serikov-climate-risk/de-storm-grid-risk/actions/workflows/tests.yml/badge.svg)](https://github.com/serikov-climate-risk/de-storm-grid-risk/actions/workflows/tests.yml)
 
-Which storms hurt the transmission grid, which lines matter, and what would better knowledge of line fragility be worth for the decision to reinforce them? This project takes 861 storm footprints from 35 winters of DWD gust records (from [de-windstorm-risk](https://github.com/michaelserikov/de-windstorm-risk)), an open OpenStreetMap model of the German grid at 220 kV and above, a fragility curve, Monte Carlo line failures and a DC power flow that minimises load shedding.
+Which storms hurt the transmission grid, which lines matter, and what would better knowledge of line fragility be worth for the decision to reinforce them? This project takes 861 storm footprints from 35 winters of DWD gust records (from [de-windstorm-risk](https://github.com/serikov-climate-risk/de-windstorm-risk)), an open OpenStreetMap model of the German grid at 220 kV and above, a fragility curve, Monte Carlo line failures and a DC power flow that minimises load shedding.
 
 This is an illustrative single-country study. **No public failure data exist for German transmission lines, so the fragility is an assumption, set by the number of line failures assumed in the largest storm (2, 5 or 15), and every lost-load number depends on it.** Compare the numbers with each other, not with real outages. See [Limitations](#limitations).
 
